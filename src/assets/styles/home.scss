@@ -52,9 +52,11 @@
   padding: 4vw;
    width: 100%;
    display: flex;
-   flex-direction:column;
+   flex-direction: row;
    right: 0;
-   transform: translateX(50%);
+   transform: translateX(55%);
+
+
   .H1 {
   padding-top: 1%;
   padding-left: 2%;
@@ -64,7 +66,6 @@
   line-height: 1.2;
   display: flex;
   flex-direction: column;
-  gap: 0.3em
 }
 .H2 {
   max-width: 30vw;
@@ -93,6 +94,15 @@
     border-radius: 6vh;
 
   }
+  .line {
+  width: 2px;
+  height: auto;
+  background-color: white;
+  position: relative;
+  top: 5%;
+  flex-shrink: 0;
+  margin-left: 6vw;
+  }
 }
 
 
@@ -102,6 +112,7 @@
   src: url('../fonts/KyivTypeSans-Medium3.ttf') format('truetype');
   font-weight: 400;
 }
+
 
 
 

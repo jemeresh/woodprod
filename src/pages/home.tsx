@@ -20,6 +20,7 @@ const HomePage = ( ) => {
         </div>
         <button className="button">Заказать</button>
         </div>
+        <hr className="line"></hr>
       </div>
     </div>
 
