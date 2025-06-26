@@ -8,12 +8,17 @@ const HomePage = ( ) => {
     <div className = "home-imag">
       <div className="overlay"></div>
       <div className="main-screen">
-        <div className="H1"><div className='main-font'>SOLID WOOD PRODUCTS</div>
+        <div className="H1"><div className='main-font'>
+            <span>SOLID</span><br />
+            <span>WOOD</span><br />
+            <span>PRODUCTS</span>
+          </div>
         <div className="H2">
-          <span className="thin">Дуб, береза, ясень за </span>
+          <span className="thin">Дуб, береза, ясень от <br/></span>
           <span className="bold">6800RUB</span>
           <span className="thin"> за м3</span>
         </div>
+        <button className="button">Заказать</button>
         </div>
       </div>
     </div>
