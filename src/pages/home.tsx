@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import '../assets/styles/home.scss'
+import '../assets/styles/home.scss';
+import image0 from '../assets/images/home/image.png';
 
 const HomePage = ( ) => {
   return (
@@ -20,7 +21,10 @@ const HomePage = ( ) => {
         </div>
         <button className="button">Заказать</button>
         </div>
-        <hr className="line"></hr>
+        <div className='container'>
+          <hr className="line"></hr>
+          <img className='image' src={image0}></img>
+        </div>
       </div>
     </div>
 
