@@ -55,7 +55,7 @@
    flex-direction: row;
    right: 0;
    transform: translateX(55%);
-
+   gap: 3vw;
 
   .H1 {
   padding-top: 1%;
@@ -94,27 +94,41 @@
     border-radius: 6vh;
 
   }
+
   .container {
-    position: relative;
-  }
-  .line {
-  width: 2px;
-  height: 80%;
-  background-color: white;
   position: relative;
-  flex-shrink: 0;
-  margin-left: 6vw;
-  }
-  .image{
-  position: absolute;
-  top: 80%;
-  left: 20vw;
-  transform: translateY(-50%);
-  width: 15vh;
-  height: 8vw;
+  padding-top: 1%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+  height: 50vh;
+  border-left:  white solid 3px;
+  overflow: hidden;
+}}
+
+// .image0, .image1 {
+//   position: relative;
+//   transform: scale(0.5);
+//   object-fit: cover;
+//   z-index: 10;
+.image1{
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+.image0{
+  margin-top: 3vh;
+  margin-left: 15vw;
+}
+
+
+
+
+.container img {
+  width: 30%;
+  height: auto;
   object-fit: cover;
-  z-index: 10;
-  }
+  flex-shrink: 0;
 }
 
 
