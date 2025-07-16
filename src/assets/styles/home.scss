@@ -54,9 +54,8 @@
    display: flex;
    flex-direction: row;
    right: 0;
-   transform: translateX(55%);
    gap: 3vw;
-
+   transform: translateX(50%);
   .H1 {
   padding-top: 1%;
   font-family: 'KyivTypeSans';
@@ -97,7 +96,6 @@
   .container {
   position: relative;
   padding-top: 1%;
-
   display: flex;
   flex-direction: column;
   width: 50vw;
@@ -149,6 +147,52 @@
   font-family: 'KyivTypeSans';
   src: url('../fonts/KyivTypeSans-Medium3.ttf') format('truetype');
   font-weight: 400;
+}
+
+.ourwork {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  .font {
+  font-family: 'KyivTypeSans';
+  font-size: 5rem;
+  color:white;
+  padding-bottom: 8vh;
+  }
+  .ourwood {
+  display: flex;
+  justify-content: space-between;
+  .wood {
+    font-family: 'KyivTypeSans';
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+  }
+  .plusminus {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.plusminus img {
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.plusminus br {
+  margin-bottom: 0.5em;
+  content: "";
+  display: block;
+}
+}
 }
 
 

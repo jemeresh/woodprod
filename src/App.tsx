@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import HomePage  from './pages/home.tsx'
+import HomePage  from './pages/home/home.js'
 import GalleryPage from './pages/gallery.tsx'
 import PricePage from './pages/price.tsx'
 import ContactPage from './pages/contact.tsx'

@@ -1,20 +1,19 @@
 import { Link } from 'react-router-dom';
-import '../assets/styles/home.scss';
-import image0 from '../assets/images/home/image0.png';
-import image1 from '../assets/images/home/image1.png';
-import image2 from '../assets/images/home/image2.png';
+import '../../assets/styles/home.scss';
+import image0 from '../../assets/images/home/image0.png';
+import image1 from '../../assets/images/home/image1.png';
+import image2 from '../../assets/images/home/image2.png';
 
-const HomePage = ( ) => {
+const MainScreen = () => {
   return (
-    <>
     <div className="home-wrapper">
     <div className = "home-imag">
       <div className="overlay"></div>
       <div className="main-screen">
         <div className="H1"><div className='main-font'>
-            <span>SOLID</span><br />
-            <span>WOOD</span><br />
-            <span>PRODUCTS</span>
+            <span>ИЗДЕЛИЯ </span>
+            <span>ИЗ МАССИВА </span><br/>
+            <span>ДЕРЕВА</span>
           </div>
         <div className="H2">
           <span className="thin">Дуб, береза, ясень от <br/></span>
@@ -48,7 +47,6 @@ const HomePage = ( ) => {
           </ul>
         </nav>
         </div>
-    </>
-  )
-}
-export default HomePage
+)}
+
+export default MainScreen
